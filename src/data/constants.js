@@ -21,9 +21,6 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1cW2d-IC29t35L_0IxGZzOPaU0B5i551y/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/om-kumavat-a34296258/",
-  // twitter: "https://twitter.com/omkumavat",
-  // insta: "https://www.instagram.com/omkumavat/",
-  // facebook: "https://www.facebook.com/omkumavat/",
 };
 
 export const contact = [
@@ -342,7 +339,7 @@ export const projects = [
     title: "AgriHaven",
     // date: "Jun 2023 - Jul 2023",
     description:
-      "Farmer's Market - Empowering Agriculture with Technology 🌾 Overview Farmer's Market is an innovative web application built with the MERN stack (MongoDB, Express, React, Python and Node.js) that bridges the gap between farmers, dealers and the digital world. It serves as a one-stop platform for farmers to buy and sell agriculture-related products.",
+      "Farmer's Market - Empowering Agriculture with Technology 🌾 Overview Farmer's Market is an innovative web application built with the MERN stack (MongoDB, Express, React, Python and Node.js) that bridges the gap between farmers, dealers and the digital world. It serves as a one-stop platform for farmers to buy and sell agriculture-related products and many services like weather forcast, real time market insights and plant disease detection using Machine Learning algorithm.",
     image:
       farmer,
     tags: [
