@@ -388,7 +388,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/omkumavat/QuickQuill-Blog-Website.git",
-    // webapp: "https://vexa-app.netlify.app/",
+    webapp: "https://quick-quill-one.vercel.app/",
   },
   // {
   //   id: 2,
