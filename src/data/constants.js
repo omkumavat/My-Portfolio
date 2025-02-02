@@ -19,7 +19,7 @@ export const Bio = {
     "I'm Om, dedicated and enthusiastic developer with a strong foundation in web development and software engineering. With hands-on experience in building dynamic, user-friendly websites and applications, I aim to create solutions that bridge technology and user needs.",
   github: "https://github.com/omkumavat",
   resume:
-    "https://drive.google.com/file/d/1cW2d-IC29t35L_0IxGZzOPaU0B5i551y/view?usp=sharing",
+    "https://drive.google.com/file/d/16Uu7mq7_ICbkSFlS_-xn7M5m8d8JxFR7/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/om-kumavat-a34296258/",
 };
 
