@@ -7,7 +7,7 @@ import python from '../images/python.jpg';
 import cpp from '../images/cpp.png'
 import aarogya from '../images/aarogya.png'
 import farmer from '../images/farmer.png'
-import blog from '../images/blog.png'
+import ds from '../images/ds.jpg';
 export const Bio = {
   name: "Om Kumavat",
   roles: [
@@ -19,7 +19,7 @@ export const Bio = {
     "I'm Om, dedicated and enthusiastic developer with a strong foundation in web development and software engineering. With hands-on experience in building dynamic, user-friendly websites and applications, I aim to create solutions that bridge technology and user needs.",
   github: "https://github.com/omkumavat",
   resume:
-    "https://drive.google.com/file/d/16Uu7mq7_ICbkSFlS_-xn7M5m8d8JxFR7/view?usp=sharing",
+    "https://drive.google.com/file/d/1eFc73-fyMXHLDSmd3Cg_438n0O1Lm8AR/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/om-kumavat-a34296258/",
 };
 
@@ -201,6 +201,22 @@ export const experiences = [
   {
     id: 0,
     // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    role: "Web Developer Intern | Thyright Innovation, Pune",
+    // company: "Flipr Inovations Pvt. Ltd.",
+    date: "Feb 2025 - Present",
+    desc: "Led the design and development of a responsive website for Thyright Innovations - a startup providing a one-stop solution for thyroid disease screening, diagnosis, and management.",
+    skills: [
+      "JavaScript",
+      "TypeScript",
+      "Node Js",
+      "React Js",
+      "Mongo DB"
+    ],
+    // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+  },
+  {
+    id: 0,
+    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
     role: "GDU ( Game Development Uthopia ) Team Member | PICT",
     // company: "Flipr Inovations Pvt. Ltd.",
     date: "May 2024 - Present",
@@ -371,24 +387,23 @@ export const projects = [
   },
   {
     id: 1,
-    title: "QuickQuill",
+    title: "Virtual Distributed System",
     description:
-      "QuickQuill is a dynamic and modern blog website developed as part of learning project. It offers a platform for users to create, publish, and share their thoughts, ideas, and experiences through engaging blog posts.",
+      "Task Scheduling & Worker Management System is a distributed platform that enables admins to create and assign tasks efficiently using greedy load based algo while optimizing worker load. It ensures fair task distribution, real-time tracking, and automated scheduling for enhanced productivity and streamlined management. 🚀",
     image:
-      blog,
+      ds,
     tags: [
       "Node Js",
       "JavaScript",
       "Express Js",
       "MongoDB",
-      "HTML",
-      "Handlebars",
-      "CSS",
-
+      "React Js",
+      "Tailwind CSS",
+      "NPM - Crons",
     ],
     category: "web app",
-    github: "https://github.com/omkumavat/QuickQuill-Blog-Website.git",
-    webapp: "https://quick-quill-one.vercel.app/",
+    github: "https://github.com/omkumavat/JSPM_Hackathon_2025",
+    webapp: "https://jspm-hackathon-2025-wycs.vercel.app/",
   },
   // {
   //   id: 2,
