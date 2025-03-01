@@ -8,6 +8,8 @@ import cpp from '../images/cpp.png'
 import aarogya from '../images/aarogya.png'
 import farmer from '../images/farmer.png'
 import ds from '../images/ds.jpg';
+import codefolio from '../images/codefolio.png';
+import scam from '../images/scam.png';
 export const Bio = {
   name: "Om Kumavat",
   roles: [
@@ -19,7 +21,7 @@ export const Bio = {
     "I'm Om, dedicated and enthusiastic developer with a strong foundation in web development and software engineering. With hands-on experience in building dynamic, user-friendly websites and applications, I aim to create solutions that bridge technology and user needs.",
   github: "https://github.com/omkumavat",
   resume:
-    "https://drive.google.com/file/d/1eFc73-fyMXHLDSmd3Cg_438n0O1Lm8AR/view?usp=sharing",
+    "https://drive.google.com/file/d/119nYHIjc_3M51rLiwcp-NmI2CFisD8mQ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/om-kumavat-a34296258/",
 };
 
@@ -384,6 +386,51 @@ export const projects = [
     category: "web app",
     github: "https://github.com/omkumavat/AAROGYA.git",
     webapp: "https://replit.com/@OmKumavat/AAROGYA-4",
+  },
+  {
+    id: 1,
+    title: "CodeFolio",
+    description:
+      "CodeFolio is a unified platform that consolidates coding profiles and performance metrics from multiple popular competitive programming and developer platforms. By aggregating data from CodeChef, CodeForces, LeetCode, GeeksforGeeks, and GitHub, CodeFolio provides recruiters and interviewers with a comprehensive dashboard to evaluate a candidate's coding skills and project contributions.",
+    image:
+      codefolio,
+    tags: [
+      "Node Js",
+      "JavaScript",
+      "Express Js",
+      "MongoDB",
+      "React Js",
+      "Tailwind CSS",
+      "JSDom",
+      "Puppeteers",
+      "Graphql"
+    ],
+    category: "web app",
+    github: "https://github.com/omkumavat/Codefolio",
+    webapp: "https://codefolio-platform.vercel.app/",
+  },
+  {
+    id: 1,
+    title: "ScamShield AI",
+    description:
+      "ScamShield is an intelligent platform designed to detect suspicious calls and prevent fraud by analyzing call recordings using advanced AI techniques. By leveraging state-of-the-art speech-to-text models and custom-trained natural language processing algorithms, ScamShield transforms audio into actionable insights. It identifies key indicators—such as urgent language, requests for sensitive information, and common social engineering cues—to flag potentially fraudulent calls in real time.",
+    image:
+      scam,
+    tags: [
+      "Jupyter Notebook",
+      "JavaScript",
+      "Python",
+      "Flask",
+      "React Js",
+      "Open AI Whisper",
+      "Gemini Generative AI",
+      "Librosa",
+      "NLTK",
+      "scikit-learn"
+    ],
+    category: "web app",
+    github: "https://github.com/Shivagad/ScamScamShieldAI",
+    webapp: "",
   },
   {
     id: 1,
