@@ -190,6 +190,15 @@ const ExperienceCard = ({ experience }) => {
                 
             }
 
+{experience.live &&
+                <a href={experience.live} target="new" className='ahref'>
+                   <div style={style}>
+                   My Work
+                   </div>
+                </a>
+                
+            }
+
         </Card>
     )
 }
