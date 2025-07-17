@@ -11,6 +11,9 @@ import ds from '../images/ds.jpg';
 import codefolio from '../images/codefolio.png';
 import scam from '../images/scam.png';
 import blogq from '../images/blogq.png';
+import billing from '../images/billing.png';
+import cloud from '../images/cloud.jpg';
+
 export const Bio = {
   name: "Om Kumavat",
   roles: [
@@ -22,8 +25,8 @@ export const Bio = {
     "I'm Om, dedicated and enthusiastic developer with a strong foundation in web development and software engineering. With hands-on experience in building dynamic, user-friendly websites and applications, I aim to create solutions that bridge technology and user needs.",
   github: "https://github.com/omkumavat",
   resume:
-    "https://drive.google.com/file/d/17Znp7Fmn-8sbb8M7gv6KJ37V4VeNTnV0/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/om-kumavat-a34296258/",
+    "https://drive.google.com/file/d/13wKB5B5HTQrTKEJfus-TX_lduOoMiTay/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/omkumavat/",
 };
 
 export const contact = [
@@ -131,11 +134,11 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
       },
-      {
-        name: "Python",
-        image:
-          python
-      },
+      // {
+      //   name: "Python",
+      //   image:
+      //     python
+      // },
       // {
       //   name: "Android Studio",
       //   image:
@@ -196,7 +199,7 @@ export const experiences = [
     // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
     role: "Web Developer Intern | Thyright Innovation, Pune",
     // company: "Flipr Inovations Pvt. Ltd.",
-    date: "Feb 2025 - Present",
+    date: "Feb 2025 - May 2025",
     desc: "Led the design and development of a responsive website for Thyright Innovations - a startup providing a one-stop solution for thyroid disease screening, diagnosis, and management.",
     skills: [
       "JavaScript",
@@ -213,7 +216,7 @@ export const experiences = [
     // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
     role: "Freelance Web Developer | Beacon Tutorials, Pune",
     // company: "Flipr Inovations Pvt. Ltd.",
-    date: "Feb 2025 - Present",
+    date: "Feb 2025 - Apr 2025",
     desc: "Developing a comprehensive website for an education coaching center (JEE, NEET, etc.) from scratch, incorporating dynamic features and ERP dashboards for admin and student modules (results, attendance management and many more). ",
     skills: [
       "JavaScript",
@@ -244,7 +247,7 @@ export const experiences = [
   {
     id: 1,
     // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Student Seminar Guide (STC) | PICT",
+    role: "Student Technical Communication (STC) | PICT",
     // company: "Flipr",
     date: "August 2024 - December 2024",
     desc: " Worked on a real-world scenario and co-authored a research paper titled “Blur Image Processing for Reducing Crime in CCTV Footages” with my mentor and teammates. ",
@@ -259,7 +262,7 @@ export const education = [
     // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
     school: "Pune Institute Of Computer Technology, Pune",
     date: "Nov 2022 - June 2026",
-    grade: "8.81 CGPA (Avg)",
+    grade: "8.92 CGPA (Avg)",
     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Pune Institute Of Computer Technology, Pune. I have completed 5 semesters and have a aggregate CGPA of 8.81. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     degree: "Bachelor of Engineering (B.E.) - Computer Science and Engineering",
   },
@@ -277,7 +280,7 @@ export const education = [
     // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
     school: "Grace Academy School, Chalisgaon, Dist: Jalgaon",
     date: "June 2015 - March 2020",
-    grade: "86.8%",
+    grade: "86.80%",
     desc: "I completed my class 10 education at Grace Academy School, Chalisgaon.",
     degree: "SSC(X), Science",
   },
@@ -371,6 +374,23 @@ export const projects = [
     github: "https://github.com/omkumavat/JSPM_Hackathon_2025",
     webapp: "https://jspm-hackathon-2025-wycs.vercel.app/",
   },
+    {
+    id: 1,
+    title: "Billing Management System",
+    description:
+      "A simple desktop-based Billing Management System built using Java Swing for the UI, JDBC for database connectivity, and MySQL as the backend. This application helps manage buyers, products, and generate bills efficiently.",
+    image:
+    billing,
+    tags: [
+      "Java",
+      "JDBC",
+      "Java Swing",
+      "MySQL",
+    ],
+    category: "desktop app",
+    github: "https://github.com/omkumavat/Billing-Management-System",
+    // webapp: "https://quickquillblog.vercel.app/",
+  },
   {
     id: 1,
     title: "QuickQuill Blog Website",
@@ -390,6 +410,24 @@ export const projects = [
     category: "web app",
     github: "https://github.com/omkumavat/BlogWebsite_QuickQuill",
     webapp: "https://quickquillblog.vercel.app/",
+  },
+   {
+    id: 1,
+    title: "Marks Data Analysis over Private Cloud (HDFS on Azure)",
+    description:
+      "This project implements a Marks Data Analysis SaaS application over a private LAN-based cloud using HDFS. It allows encrypted data uploads, distributed storage, and processing via Hadoop tools (MapReduce, Hive, or Spark) to perform real-time querying, trend analysis, and forecasting on large-scale datasets.",
+    image:
+    cloud,
+    tags: [
+      "Java",
+      "Azure",
+      "Hadoop",
+      "HDFS",
+      "MapReduce",
+    ],
+    category: "cloud app",
+    github: "https://github.com/omkumavat/Cloud-Computing-HDFS",
+    // webapp: "https://quickquillblog.vercel.app/",
   },
   {
     id: 0,
