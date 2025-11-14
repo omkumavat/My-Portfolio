@@ -13,6 +13,7 @@ import scam from '../images/scam.png';
 import blogq from '../images/blogq.png';
 import billing from '../images/billing.png';
 import cloud from '../images/cloud.jpg';
+import collab from '../images/collab.png';
 
 export const Bio = {
   name: "Om Kumavat",
@@ -32,11 +33,11 @@ export const Bio = {
 export const contact = [
   {
     name: "Email",
-    title:"omkumavat2004@gmail.com"
+    title: "omkumavat2004@gmail.com"
   },
   {
     name: "Mobile No.",
-    title:"+91 9209115091"
+    title: "+91 9209115091"
   }
 ]
 
@@ -182,7 +183,7 @@ export const skills = [
       {
         name: "Windows",
         image:
-         windows,
+          windows,
       },
       {
         name: "Linux",
@@ -374,13 +375,13 @@ export const projects = [
     github: "https://github.com/omkumavat/JSPM_Hackathon_2025",
     webapp: "https://jspm-hackathon-2025-wycs.vercel.app/",
   },
-    {
+  {
     id: 1,
     title: "Billing Management System",
     description:
       "A simple desktop-based Billing Management System built using Java Swing for the UI, JDBC for database connectivity, and MySQL as the backend. This application helps manage buyers, products, and generate bills efficiently.",
     image:
-    billing,
+      billing,
     tags: [
       "Java",
       "JDBC",
@@ -393,11 +394,32 @@ export const projects = [
   },
   {
     id: 1,
+    title: "Collab",
+    description: "Collab is a modern, full-featured workspace platform combining Confluence-style documentation with Jira-style Kanban boards. Built with React, TypeScript, Tailwind, and Socket.io, it enables teams to collaborate in real time with a powerful Tiptap-based editor, drag-and-drop task boards, live presence, smart notifications, and auto-saving. Designed",
+    image:
+      collab,
+    tags: [
+      "Node Js",
+      "JavaScript",
+      "Express Js",
+      "MongoDB",
+      "React Js",
+      "Tailwind CSS",
+      "Socket.io",
+      "Tiptap Editor",
+      "Zustand"
+    ],
+    category: "web app",
+    github: "https://github.com/omkumavat/FronCort-Assessment-Submission",
+    webapp: "https://project-collab-editor.vercel.app",
+  },
+  {
+    id: 1,
     title: "QuickQuill Blog Website",
     description:
       "A 'QuickQuill' is an online platform where writers share insights, stories, and expertise on various topics. It features regularly updated posts organized by categories, allowing readers to easily explore content, engage through comments, and share their favorite articles on social media.",
     image:
-    blogq,
+      blogq,
     tags: [
       "Node Js",
       "JavaScript",
@@ -411,13 +433,13 @@ export const projects = [
     github: "https://github.com/omkumavat/BlogWebsite_QuickQuill",
     webapp: "https://quickquillblog.vercel.app/",
   },
-   {
+  {
     id: 1,
     title: "Marks Data Analysis over Private Cloud (HDFS on Azure)",
     description:
       "This project implements a Marks Data Analysis SaaS application over a private LAN-based cloud using HDFS. It allows encrypted data uploads, distributed storage, and processing via Hadoop tools (MapReduce, Hive, or Spark) to perform real-time querying, trend analysis, and forecasting on large-scale datasets.",
     image:
-    cloud,
+      cloud,
     tags: [
       "Java",
       "Azure",
@@ -442,7 +464,7 @@ export const projects = [
     github: "https://github.com/omkumavat/AAROGYA.git",
     webapp: "https://replit.com/@OmKumavat/AAROGYA-4",
   },
- 
+
 ];
 
 export const TimeLineData = [
