@@ -14,6 +14,7 @@ import blogq from '../images/blogq.png';
 import billing from '../images/billing.png';
 import cloud from '../images/cloud.jpg';
 import collab from '../images/collab.png';
+import sales from '../images/sales.png';
 
 export const Bio = {
   name: "Om Kumavat",
@@ -412,6 +413,25 @@ export const projects = [
     category: "web app",
     github: "https://github.com/omkumavat/FronCort-Assessment-Submission",
     webapp: "https://project-collab-editor.vercel.app",
+  },
+  {
+    id: 1,
+    title: "Sales Management System",
+    description: "A full-stack sales data management platform built using React (Vite) on the frontend and Node.js + Express + PostgreSQL/Supabase on the backend. It provides real-time search, filtering, sorting, pagination, and analytics for handling millions of customer records.",
+    image:
+      sales,
+    tags: [
+      "Node Js",
+      "JavaScript",
+      "Express Js",
+      "PostgreSQL / Supabase",
+      "React Js",
+      "Tailwind CSS",
+      "Supabase JS Client",
+    ],
+    category: "web app",
+    github: "https://github.com/omkumavat/Sales-Management-System",
+    webapp: "https://sales-management-system-two.vercel.app",
   },
   {
     id: 1,
